@@ -28,6 +28,7 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     testCompile("junit:junit")
+    testCompile('org.assertj:assertj-core:3.1.0')
 }
 
 task wrapper(type: Wrapper) {
